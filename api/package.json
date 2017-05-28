@@ -1,0 +1,16 @@
+{
+  "name": "brand_catalog",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg-promise": "^5.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

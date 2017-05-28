@@ -1,0 +1,119 @@
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.App-header {
+  text-align: right;
+  background-color: rgba(200, 200, 255, .9);
+  padding: 10px;
+  color: white;
+}
+.App-header li img{
+  width: 30px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-header ul{
+  margin: 0;
+  padding: 0;
+}
+
+.App-header li{
+  margin: 0;
+  padding: 0;
+  color: blue;
+  font-size: 20px;
+}
+
+.contents{
+  border-radius: 20px;
+  background: rgba(0,0,0, .9);
+  color: white;
+  padding: 20px;
+  margin: 80px auto 70px auto;
+}
+
+.profiletext h3{
+  font-family: 'Bad Script';
+  text-align: justify;
+}
+
+header{
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0, 1);
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+.profilepic, .profiletext{
+  display: inline-block;
+}
+.profiletext{
+  padding: 10px;
+  text-align: left;
+}
+.profiletext h1{
+  text-align: left;
+}
+.profiletext ul li{
+  margin-bottom: 10px;
+}
+.profiletext h3, .profiletext .profiletitle{
+
+  text-align: left;
+}
+.profilepic{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profilepic img{
+  transform: translateY(-50px);
+  width: 100%;
+}
+.profiletitle{
+  font-size: 1.5em;
+  border-top: 1px solid white;
+}
+
+.left{
+  text-align: left;
+}
+
+.btn{
+  transition: all .5s;
+}
+
+.btn:hover{
+  border-radius: 0%;
+  background: rgba(200, 200, 255, 1);
+  box-shadow: 3px 3px 10px rgba(0,0,0, .5);
+}
+
+.sitepic img{
+  width: 100%;
+}
+.site{
+  padding: 20px;
+  margin: 20px 0;
+  background: rgba(0,0,0, .7);
+}
+.sitetext{
+  text-align: left;
+}
