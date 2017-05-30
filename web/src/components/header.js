@@ -9,7 +9,7 @@ class Header extends React.Component{
 				<div className="row">
 					<div className="col-md-4 col-md-offset-8">
 						<ul className="list-inline">
-							<li><Link to="/" className="btn">Brands</Link></li>
+							<li><Link to="/brands" className="btn">Brands</Link></li>
 							<li><Link to="/products" className="btn">Products</Link></li>
 							<li><Link to="/about" className="btn">About</Link></li>
 						</ul>

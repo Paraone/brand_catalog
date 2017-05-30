@@ -7,6 +7,15 @@ const defaultState = {
   brands : {
     loading: true,
     allBrands: []
+  },
+  single : {
+    loading: true,
+    products: [],
+    brand: null
+  },
+  products : {
+    loading : true,
+    allProducts: []
   }
 };
 

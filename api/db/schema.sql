@@ -15,5 +15,5 @@ CREATE TABLE products (
   description VARCHAR(255),
   logo VARCHAR(255),
   brand_id integer,
-  FOREIGN KEY brand_id REFERENCES brands(id)
+  FOREIGN KEY (brand_id) REFERENCES brands(id)
 );

@@ -33,7 +33,7 @@
 
 .contents{
   border-radius: 20px;
-  background: rgba(0,0,0, .9);
+  background: rgba(0,0,40, .99);
   color: white;
   padding: 20px;
   margin: 80px auto 70px auto;
@@ -116,4 +116,10 @@ footer{
 }
 .sitetext{
   text-align: left;
+}
+input{
+  color: black;
+}
+textarea{
+  color: black;
 }

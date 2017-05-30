@@ -5,7 +5,9 @@ import App from './App';
 
 function mapStateToProps(state){
 	return {
-    brands: state.brands
+    brands: state.brands,
+    single: state.single,
+    products: state.products
   }
 }
 
